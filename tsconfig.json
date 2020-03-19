@@ -2,7 +2,8 @@
     "compilerOptions": {
         "target": "es6", //ECMASCRIPT 6 que fara a conversao do typescript para java script assim o browser consegue interpretar.
         "outDir": "app/js",
-        "noEmitOnError": true
+        "noEmitOnError": true, // 
+        "noImplicitAny": true // proibir explicitamente o tipo any para propriedades.
     },
     "include": [
         "app/ts/**/*"
